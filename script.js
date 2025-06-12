@@ -34,7 +34,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
   sendResetBtn.addEventListener("click", () => {
     const resetEmail = document.getElementById("reset-email").value;
     if (resetEmail) {
-      alert(A reset link has been sent to ${resetEmail});
+      alert(`A reset link has been sent to ${resetEmail}`);
       modal.style.display = "none";
     } else {
       alert("Please enter your email.");
