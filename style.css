@@ -64,7 +64,7 @@ body {
   
   button[type="submit"]:hover {
     background: linear-gradient(90deg, #303f9f, #7b1fa2);
-    transform: translateY(10px); /* เลื่อนลง 10px */
+    transform: translateX(10px);
   }
 .links {
     margin-top: 16px;
