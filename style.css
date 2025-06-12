@@ -138,12 +138,4 @@ body {
     font-size: 20px;
     cursor: pointer;
   }
-
-.error-message {
-  color: red;
-  font-size: 12px;
-  text-align: left;
-  margin: -12px 0 12px 0;
-  display: none; 
-}
   
