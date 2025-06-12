@@ -3,11 +3,11 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     const email = e.target[0].value;
     const password = e.target[1].value;
   
-    if (email && password) {
-      alert(`Email: ${email}\nPassword: ${password}`);
-    } else {
-      alert("Please fill in all fields.");
-    }
+  if (email && password) {
+    alert("Login Successful");
+  } else {
+    alert("Please fill in all fields.");
+  }
   });
   
   // Modal functionality
